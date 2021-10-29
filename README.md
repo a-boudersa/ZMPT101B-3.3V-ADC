@@ -5,4 +5,6 @@ Due to the output voltage swing the full operation range cannot be used which se
 As a solution to this problem I proposed the use of different input pins for the offset voltage and the positive rail voltage. which allows us to benefit from the linear range of 5V operation while using offset appropriate for the 3.3V ADC.
 Care should be taken with the amplification ratio to not exceed the save range of the ADC.
 
+the resolution improvement for the specific 3.3V ADC application is around 400%
+
 this repository includes the gerber files of the module in addition to the schematic and the KiCad project files. 
